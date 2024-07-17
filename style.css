@@ -1,0 +1,47 @@
+* {
+  font-family: "Lato";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+hr {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.text-container {
+  margin: 3% 0;
+}
+
+p,
+ul,
+a {
+  line-height: 1.5;
+  margin-bottom: 1%;
+  font-size: 1.1rem;
+}
+
+p {
+  text-align: justify;
+}
+
+ul {
+  margin-left: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.fa {
+  font-size: 0.8rem;
+}
