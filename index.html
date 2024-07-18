@@ -261,5 +261,15 @@
         >App Privacy Policy Generator</a
       >
     </p>
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      var policyVersion = document.getElementById("policy-version").textContent;
+      if (window.ReactNativeWebView) {
+        window.ReactNativeWebView.postMessage(policyVersion);
+      } else {
+        console.log("WebView bridge is not available.");
+      }
+    });
+  </script>
   </body>
 </html>
